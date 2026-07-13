@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://mon-ones-holding-screenshot.trycloudflare.com';
+const API_BASE_URL = 'https://shows-three-approximate-clinic.trycloudflare.com';
 
 export const sendDiseaseData = async (data) => {
   const response = await fetch(`${API_BASE_URL}/registros`, {

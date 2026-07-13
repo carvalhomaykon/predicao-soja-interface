@@ -75,7 +75,7 @@ export default function DiseaseForm() {
   const riskStyle = getRiskStyles(apiResult?.predicao?.nivel_risco);
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-2xl shadow-xl border border-gray-100">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-2xl shadow-xl border border-gray-100 mb-10">
       <h2 className="text-2xl font-bold mb-6 text-emerald-950">Análise de Campo</h2>
       
       <form onSubmit={handleSubmit} className="space-y-4">

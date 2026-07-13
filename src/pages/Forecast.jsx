@@ -10,11 +10,11 @@ function Forecast() {
                 <Home/>
             </section>
 
-            <section>
+            <section id="about">
                 <About/>
             </section>
 
-            <section>
+            <section id="prediction">
                 <DiseaseForm/>
             </section>
 
